@@ -1,4 +1,4 @@
-(defproject run.avelino/boilerpipe-clj "0.3.1"
+(defproject run.avelino/boilerpipe-clj "0.3.2"
   :description "A simple wrapper around the Boilerpipe library for extracting text from html articles/pages"
   :url "https://avelino.run"
   :license {:name "Apache License, Version 2.0"
