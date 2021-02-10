@@ -2,16 +2,19 @@
 
 A simple wrapper around the Boilerpipe text extraction library.
 
+[![Clojars Project](https://img.shields.io/clojars/v/run.avelino/boilerpipe-clj.svg)](https://clojars.org/run.avelino/boilerpipe-clj)
+
+
 ## Artifacts
 
-`boilerpipe-clj` is [released on Clojars](http://clojars.org).
+`boilerpipe-clj` is [released on Clojars](https://clojars.org/run.avelino/boilerpipe-clj).
 
 ### The Most Recent Release
 
 With Leiningen, add it to the dependencies in `project.clj`:
 
 ```clojure
-[io.curtis/boilerpipe-clj "0.3.0"]
+[run.avelino/boilerpipe-clj "0.3.1"]
 ```
 
 ## Usage
@@ -60,11 +63,9 @@ Java.
 ## Contributors
 * Curtis Gagliardi ([@cgag](https://github.com/cgag))
 * Nick Barnwell ([@nickbarnwell](https://github.com/nickbarnwell))
+* Avelino ([@avelino](https://github.com/avelino))
 
 ## License
-
-Copyright © 2013 [Curtis Gagliardi](http://curtis.io/)
-Copyright © 2013 [Nick Barnwell](https://github.com/nickbarnwell)
 
 boilerpipe-clj is provided under the ASL 2.0 license.
 
@@ -72,8 +73,13 @@ The full license is available in LICENSE.md
 
 ## Changes
 
+### 0.3.1
+
+- Change package `de.l3s.boilerpipe/boilerpipe` to `com.robbypond/boilerpipe`: Google Code deprecated
+- Register `run.avelino/boilerpipe-clj` on [Clojar](https://clojars.org/run.avelino/boilerpipe-clj)
+
 ### 0.3.0
 
-Remove util namespace, it's outside the scope of this library.  It only made it in here
-due to lazyness when pulling this code out of another project. I suspect no one but me
-was using them anyway. 
+- Remove util namespace, it's outside the scope of this library.  It only made it in here
+- due to lazyness when pulling this code out of another project. I suspect no one but me
+- was using them anyway. 
