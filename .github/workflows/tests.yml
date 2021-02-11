@@ -1,0 +1,15 @@
+name: Tests
+on: [ push ]
+jobs:
+  runtime-test:
+    name: Runtime Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@latest
+      - uses: DeLaGuardo/setup-graalvm@2.0
+      - uses: DeLaGuardo/setup-clojure@master
+        with:
+          cli: '1.10.2'
+          lein: 2.9.5
+      - run: clojure -Sdescribe
+      - run: lein test
