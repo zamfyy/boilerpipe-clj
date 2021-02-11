@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: DeLaGuardo/setup-graalvm@2.0
+      - uses: DeLaGuardo/setup-graalvm@master
         with:
-          graalvm-version: '19.3.1.java11'
+          graalvm-version: '20.3.0.java11'
       - uses: DeLaGuardo/setup-clojure@master
         with:
           cli: '1.10.2'
