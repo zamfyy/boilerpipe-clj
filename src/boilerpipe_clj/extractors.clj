@@ -3,10 +3,9 @@
              ArticleExtractor
              ArticleSentencesExtractor
              DefaultExtractor)
-             (de.l3s.boilerpipe.sax ImageExtractor)))
+           (de.l3s.boilerpipe.sax ImageExtractor)))
 
 (defonce article-extractor (ArticleExtractor/getInstance))
 (defonce default-extractor (DefaultExtractor/getInstance))
-(defonce image-extractor (ImageExtractor/INSTANCE))
-(defonce article-sentence-extractor
-  (ArticleSentencesExtractor/getInstance))
+(defonce image-extractor (ImageExtractor/getInstance))
+(defonce article-sentence-extractor (ArticleSentencesExtractor/getInstance))
