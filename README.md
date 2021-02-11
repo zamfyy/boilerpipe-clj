@@ -2,6 +2,7 @@
 
 A simple wrapper around the Boilerpipe text extraction library.
 
+[![Github Actions](https://github.com/avelino/boilerpipe-clj/workflows/Tests/badge.svg)](https://github.com/avelino/boilerpipe-clj/actions?query=workflow%3ATests)
 [![Clojars Project](https://img.shields.io/clojars/v/run.avelino/boilerpipe-clj.svg)](https://clojars.org/run.avelino/boilerpipe-clj)
 
 
