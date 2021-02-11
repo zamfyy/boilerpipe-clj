@@ -5,7 +5,7 @@ jobs:
     name: Runtime Tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@v2
       - uses: DeLaGuardo/setup-graalvm@2.0
       - uses: DeLaGuardo/setup-clojure@master
         with:
