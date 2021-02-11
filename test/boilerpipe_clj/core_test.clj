@@ -9,7 +9,6 @@
 
 (def extractors [ext/default-extractor
                  ext/article-extractor
-                 ext/image-extractor
                  ext/article-sentence-extractor])
 
 (deftest get-text-extraction
