@@ -9,9 +9,9 @@
   Will use Boilerpipe ArticleExtractor impl if not passed an extractor
   instance as second argument."
   ([source]
-     (get-text source ext/article-extractor))
+   (get-text source ext/article-extractor))
   ([^String source ^ExtractorBase extractor]
-     (.getText extractor source)))
+   (.getText extractor source)))
 
 (defn get-images
   "Takes the URL of the page and return list of Image"
