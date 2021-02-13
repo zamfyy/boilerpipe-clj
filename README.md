@@ -74,6 +74,11 @@ The full license is available in LICENSE.md
 
 ## Changes
 
+### 0.3.2
+
+- Implemented the function `boilerpipe-clj.core/get-images` [ref](https://github.com/avelino/boilerpipe-clj/pull/1)
+- Test environment (testing running) on [Github Actions](https://github.com/avelino/boilerpipe-clj/actions?query=workflow%3ATests)
+
 ### 0.3.1
 
 - Change package `de.l3s.boilerpipe/boilerpipe` to `com.robbypond/boilerpipe`: Google Code deprecated
