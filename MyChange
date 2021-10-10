@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class MyChange {
+  public static void main(String args[]){
+  Scanner sc = new Scanner(System.in);
+  String country;
+  System.out.print("Input your country: ");
+  country = sc.nextLine();
+  System.out.println("Hello" +country);
+  }
+}
